@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,9 +13,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Test Launches" Type="Folder">
+			<Item Name="Registry Test Launcher.vi" Type="VI" URL="../UniqueName/Registry Test Launcher.vi"/>
+		</Item>
 		<Item Name="Delimiter.lvclass" Type="LVClass" URL="../Delimiter/Delimiter.lvclass"/>
 		<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="../RandomStringGenerator/RandomStringGenerator.lvclass"/>
-		<Item Name="Registry Test Launcher.vi" Type="VI" URL="../UniqueName/Registry Test Launcher.vi"/>
+		<Item Name="StringIncrementAlgorithm.lvclass" Type="LVClass" URL="../NameIncrementAlgorithm/StringIncrementAlgorithm.lvclass"/>
+		<Item Name="UniquenessCriteria.lvclass" Type="LVClass" URL="../UniquenessCriteria/UniquenessCriteria.lvclass"/>
 		<Item Name="UniqueName.lvlib" Type="Library" URL="../UniqueName/UniqueName.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
