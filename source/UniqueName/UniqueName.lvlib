@@ -8,4 +8,5 @@
 	<Item Name="UniqueName.lvclass" Type="LVClass" URL="../UniqueNameClass/UniqueName.lvclass"/>
 	<Item Name="UniquenessCriteria.lvclass" Type="LVClass" URL="../UniquenessCriteria/UniquenessCriteria.lvclass"/>
 	<Item Name="StringIncrementAlgorithm.lvclass" Type="LVClass" URL="../NameIncrementAlgorithm/StringIncrementAlgorithm.lvclass"/>
+	<Item Name="NameRegistry.lvclass" Type="LVClass" URL="../Registry/NameRegistry.lvclass"/>
 </Library>
