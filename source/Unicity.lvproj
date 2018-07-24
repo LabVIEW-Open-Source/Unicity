@@ -18,7 +18,7 @@
 		</Item>
 		<Item Name="Delimiter.lvclass" Type="LVClass" URL="../Delimiter/Delimiter.lvclass"/>
 		<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="../RandomStringGenerator/RandomStringGenerator.lvclass"/>
-		<Item Name="StringIncrement.lvclass" Type="LVClass" URL="../NameIncrementAlgorithm/StringIncrement.lvclass"/>
+		<Item Name="StringIncrement.lvclass" Type="LVClass" URL="../StringIncrement/StringIncrement.lvclass"/>
 		<Item Name="StringIncrement.Alphabetical.lvclass" Type="LVClass" URL="../StringIncrement.Alphabetical/StringIncrement.Alphabetical.lvclass"/>
 		<Item Name="UniquenessCriteria.lvclass" Type="LVClass" URL="../UniquenessCriteria/UniquenessCriteria.lvclass"/>
 		<Item Name="UniqueName.lvlib" Type="Library" URL="../UniqueName/UniqueName.lvlib"/>
