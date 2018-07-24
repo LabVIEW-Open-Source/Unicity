@@ -7,4 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="UniqueName.lvclass" Type="LVClass" URL="../UniqueNameClass/UniqueName.lvclass"/>
 	<Item Name="NameRegistry.lvclass" Type="LVClass" URL="../Registry/NameRegistry.lvclass"/>
+	<Item Name="UniquenessCriteria.lvclass" Type="LVClass" URL="../UniquenessCriteria/UniquenessCriteria.lvclass"/>
+	<Item Name="StringIncrement.lvclass" Type="LVClass" URL="../StringIncrement/StringIncrement.lvclass"/>
+	<Item Name="StringIncrement.Alphabetical.lvclass" Type="LVClass" URL="../StringIncrement.Alphabetical/StringIncrement.Alphabetical.lvclass"/>
 </Library>
