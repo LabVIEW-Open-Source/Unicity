@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-25 21:17:45" Creator="Francois Normandin" Comments="" ID="47a7e81bf8a60e70a0ba81f59a7e350f">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-25 21:19:14" Creator="Francois Normandin" Comments="" ID="914f2ca55deaa84e2f55206c8addabae">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Unicity</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -448,11 +448,39 @@ The tools include configurable Registry for unique string generation, name incre
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>2</Column>
+          <Row>2</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>source\UniqueName\StringIncrement\Increment String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>StringIncrement-Numerical.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\UniqueName\Object DropVI\StringIncrement-Numerical.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>StringIncrement-Alphabetical.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\UniqueName\Object DropVI\StringIncrement-Alphabetical.vi</Path>
         <VI_Title/>
       </Items_Data>
       <GUID>34E90A3951DE3D1DE90B8EA9B65D96DA</GUID>
