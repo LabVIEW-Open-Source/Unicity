@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-25 20:14:13" Creator="Francois Normandin" Comments="" ID="70e312c95eaf654902bf40bd682d2b86">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-07-25 21:17:45" Creator="Francois Normandin" Comments="" ID="47a7e81bf8a60e70a0ba81f59a7e350f">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Unicity</Package_File_Name>
     <Library_Version>1.0.0.1</Library_Version>
@@ -336,7 +336,21 @@ The tools include configurable Registry for unique string generation, name incre
         <Path>source\UniqueName\Registry\Destroy Registry.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BF7A5B2B45F435E98DFE893B13415F69</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Example StringName Increment.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\UniqueName\Example StringName Increment.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>051236D91AB4146918E37673425F3CA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -357,76 +371,6 @@ The tools include configurable Registry for unique string generation, name incre
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>UniqueName</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Generate Random String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\RandomStringGenerator\Generate Random String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Increment String.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\UniqueName\StringIncrement\Increment String.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Append Numeric.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\UniqueName\StringIncrement\Read Append Numeric.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Append Numeric.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\UniqueName\StringIncrement\Write Append Numeric.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write String Length.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>source\RandomStringGenerator\Write String Length.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -486,18 +430,32 @@ The tools include configurable Registry for unique string generation, name incre
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Criteria.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Generate Random String.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
-          <Column>3</Column>
+          <Row>1</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>source\UniqueName\UniquenessCriteria\Write Criteria.vi</Path>
+        <Path>source\RandomStringGenerator\Generate Random String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27CAA4D4C887BB9F22144982723FF4B9</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Increment String.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\UniqueName\StringIncrement\Increment String.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>34E90A3951DE3D1DE90B8EA9B65D96DA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -686,7 +644,7 @@ The tools include configurable Registry for unique string generation, name incre
         <Path>source\UniqueName\UniqueNameClass\Construct FQN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>72DEE3157B238A350030AA5602ABB9E2</GUID>
+      <GUID>41B377C3E1E4D522BF50D45241BEE8A8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
