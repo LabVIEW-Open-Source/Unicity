@@ -13,8 +13,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Launches" Type="Folder">
+		<Item Name="Examples" Type="Folder">
 			<Item Name="Registry Test Launcher.vi" Type="VI" URL="../UniqueName/Registry Test Launcher.vi"/>
+			<Item Name="Example StringName Increment.vi" Type="VI" URL="../UniqueName/Example StringName Increment.vi"/>
+		</Item>
+		<Item Name="Objects Drop VIs" Type="Folder">
+			<Item Name="StringIncrement-Numerical.vi" Type="VI" URL="../UniqueName/Object DropVI/StringIncrement-Numerical.vi"/>
+			<Item Name="StringIncrement-Alphabetical.vi" Type="VI" URL="../UniqueName/Object DropVI/StringIncrement-Alphabetical.vi"/>
 		</Item>
 		<Item Name="Delimiter.lvclass" Type="LVClass" URL="../Delimiter/Delimiter.lvclass"/>
 		<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="../RandomStringGenerator/RandomStringGenerator.lvclass"/>
