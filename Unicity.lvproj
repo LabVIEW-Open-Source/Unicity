@@ -21,18 +21,18 @@
 			<Item Name="StringIncrement-Numerical.vi" Type="VI" URL="../UniqueName/Object DropVI/StringIncrement-Numerical.vi"/>
 			<Item Name="StringIncrement-Alphabetical.vi" Type="VI" URL="../UniqueName/Object DropVI/StringIncrement-Alphabetical.vi"/>
 		</Item>
-		<Item Name="Delimiter.lvclass" Type="LVClass" URL="../Delimiter/Delimiter.lvclass"/>
-		<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="../RandomStringGenerator/RandomStringGenerator.lvclass"/>
-		<Item Name="UniqueName.lvlib" Type="Library" URL="../UniqueName/UniqueName.lvlib"/>
+		<Item Name="Delimiter.lvclass" Type="LVClass" URL="../source/Delimiter/Delimiter.lvclass"/>
+		<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="../source/RandomStringGenerator/RandomStringGenerator.lvclass"/>
+		<Item Name="UniqueName.lvlib" Type="Library" URL="../source/UniqueName/UniqueName.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
-				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
-				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
+				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
